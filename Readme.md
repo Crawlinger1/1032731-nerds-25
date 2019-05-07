@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Павел Итчин](https://up.htmlacademy.ru/htmlcss/25/user/1032731).
-* Наставник: [Сергей Артемов](https://github.com/firefoxic).
+* Наставник: [Сергей Артемов](https://htmlacademy.ru/profile/firefoxic).
 
 ---
 
