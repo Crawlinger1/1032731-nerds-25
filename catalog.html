@@ -5,24 +5,24 @@
     <title>HTML Academy: Нёрдс: Каталог</title>
   </head>
   <body>
-  <header>
+  <header class="catalog_header">
     <a href="index.html"><img src="logo" alt="Logo"></a>
-    <nav>
+    <nav class="catalog_header">
     <ul class="nav_bar">
       <li><a href="#">Студия</a></li>
       <li><a href="#">Клиенты</a></li>
-      <li><a href="#">Магазин</a></li>
+      <li><a href="catalog.html">Магазин</a></li>
       <li><a href="#">Контакты</a></li>
     </ul>
     <ul class="cart">
       <li><a href="#">Корзина</a></li>
     </ul>
     </nav>
-    <section>
+    <section class="header_text">
       <h1>Магазин готовых шаблонов</h1>
     </section>
   </header>
-  <main>
+  <main class="catalog_container">
     <aside class="input_side">
       <p>
         <label for="grid"><b>СЕТКА:</b></label><br>
@@ -40,24 +40,30 @@
       </p>
       <button type="button" class="input_side_button">ПОКАЗАТЬ</button>
     </aside>
-    <section class="img_container">
-      <table>
-        <tr>
-          <td><a href="#"><img src="sedona" alt="Sedona"></a></td>
-          <td><a href="#"><img src="pink" alt="Pink"></a></td>
-        </tr>
-        <tr>
-          <td><a href="#"><img src="borodinski" alt="Borodinski"></a></td>
-          <td><a href="#"><img src="mishka" alt="Mishka"></a></td>
-        </tr>
-        <tr>
-          <td><a href="#"><img src="a_plus" alt="A+"></a></td>
-          <td><a href="#"><img src="kvast" alt="Kvast"></a></td>
-        </tr>
-      </table>
+    <section class="item_container">
+        <ul class="catalog_list">
+          <li class="catalog_item">
+            <a href="#"><img src="sedona" alt="Sedona"></a>
+          </li>
+          <li class="catalog_item">
+            <a href="#"><img src="pink" alt="Pink"></a>
+          </li>
+          <li class="catalog_item">
+            <a href="#"><img src="borodinski" alt="Borodinski"></a>
+          </li>
+          <li class="catalog_item">
+            <a href="#"><img src="mishka" alt="Mishka"></a>
+          </li>
+          <li class="catalog_item">
+            <a href="#"><img src="a_plus" alt="A+"></a>
+          </li>
+          <li class="catalog_item">
+            <a href="#"><img src="kvast" alt="Kvast"></a>
+          </li>
+        </ul>
     </section>
   </main>
-  <footer>
+  <footer class="footer">
     <nav>
       <a href="#"><img src="social vk" alt="VK"></a>
       <a href="#"><img src="social fb" alt="FB"></a>
