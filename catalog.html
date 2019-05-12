@@ -18,11 +18,11 @@
       <li><a href="#">Корзина</a></li>
     </ul>
     </nav>
-    <h1 class="header_headline">Магазин готовых шаблонов</h1>
   </header>
   <main class="catalog_container">
+    <h1 class="header_headline">Магазин готовых шаблонов</h1>
   <!-- Здесь будет форма
-  <aside class="input_side">
+  <section class="input_side">
         <label for="grid"><h3>СЕТКА:</h3></label>
           <p><input type="radio" name="grid" value="adaptive" checked>Адаптивная</p>
           <p><input type="radio" name="grid" value="fixed">Фиксированная</p>
@@ -34,16 +34,17 @@
           <p><input type="checkbox" name="features" value="gallery">Галерея</p>
           <p><input type="checkbox" name="features" value="cart">Корзина</p>
         <p><button type="button" class="input_side_button">ПОКАЗАТЬ</button></p>
-  </aside>
+  </section>
   -->
     <section class="item_container">
+      <h2 class="visually_hidden">Перечень шаблонов</h2>
         <ul class="catalog_list">
           <li class="catalog_item">
             <a href="#"><img src="sedona" alt="Sedona"></a>
             <div class="item_popup">
               <h3>SEDONA</h3>
               <p>Информационный сайт для туристов</p>
-              <button type="button" name="popup_order">9900 РУБ.</button>
+              <a href="sedona_order_page" class="order_button">9900 РУБ.</a>
             </div>
           </li>
           <li class="catalog_item">
@@ -69,20 +70,20 @@
         </ul>
     </section>
   </main>
-  <footer class="footer">
-    <nav class="footer_nav">
+  <footer class="catalog_footer">
+    <div class="pic_container">
       <ul class="social_pic">
         <li class="social vk"><a href="#">VK</a></li>
         <li class="social fb"><a href="#">FB</a></li>
         <li class="social inst"><a href="#">INST</a></li>
       </ul>
-    </nav>
-    <article class="social_discount">
+    </div>
+    <div class="social_discount">
       <p>
         <b>Давайте дружить, это выгодно!</b>
         Скидка 10% для друзей из социальных сетей.
       </p>
-    </article>
+    </div>
   </footer>
   </body>
 </html>
