@@ -21,22 +21,26 @@
   </header>
   <main class="catalog_container">
     <h1 class="header_headline">Магазин готовых шаблонов</h1>
-  <!-- Здесь будет форма
-  <section class="input_side">
-    <h2 class="visually-hidden">Фильтры</h2>
-        <label for="grid"><h3>СЕТКА:</h3></label>
-          <p><input type="radio" name="grid" value="adaptive" checked>Адаптивная</p>
-          <p><input type="radio" name="grid" value="fixed">Фиксированная</p>
-          <p><input type="radio" name="grid" value="elastic">Резиновая</p>
-        <label for="features"><h3>ОСОБЕННОСТИ:</h3></label>
-          <p><input type="checkbox" name="features" value="slider" checked>Слайдер</p>
-          <p><input type="checkbox" name="features" value="benefits">Блок преимуществ</p>
-          <p><input type="checkbox" name="features" value="news" checked>Новости</p>
-          <p><input type="checkbox" name="features" value="gallery">Галерея</p>
-          <p><input type="checkbox" name="features" value="cart">Корзина</p>
-        <p><button type="button" class="input_side_button">ПОКАЗАТЬ</button></p>
-  </section>
-  -->
+    <section class="input_side">
+      <h2 class="visually-hidden">Фильтры</h2>
+      <form action="http://echo.htmlacademy.ru" method="get">
+        <fieldset>
+          <legend><h3>СЕТКА:</h3></legend>
+            <p><input type="radio" name="grid" value="adaptive" checked>Адаптивная</p>
+            <p><input type="radio" name="grid" value="fixed">Фиксированная</p>
+            <p><input type="radio" name="grid" value="elastic">Резиновая</p>
+        </fieldset>
+        <fieldset>
+          <legend><h3>ОСОБЕННОСТИ:</h3></legend>
+            <p><input type="checkbox" name="features" value="slider" checked>Слайдер</p>
+            <p><input type="checkbox" name="features" value="benefits">Блок преимуществ</p>
+            <p><input type="checkbox" name="features" value="news" checked>Новости</p>
+            <p><input type="checkbox" name="features" value="gallery">Галерея</p>
+            <p><input type="checkbox" name="features" value="cart">Корзина</p>
+        </fieldset>
+        <p><button type="submit" class="submit_side_button">ПОКАЗАТЬ</button></p>
+      </form>
+    </section>
     <section class="item_container">
       <h2 class="visually-hidden">Перечень шаблонов</h2>
         <ul class="catalog_list">
@@ -118,5 +122,31 @@
       <p class="discount_hint">Скидка 10% для друзей из социальных сетей.</p>
     </div>
   </footer>
+  <section class="modal_window visually-hidden">
+    <h2>Напишите нам</h2>
+    <form class="write_us" action="http://echo.htmlacademy.ru" method="post">
+      <div class="half_width name">
+        <label for="name">
+          Ваше имя:
+          <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+        </label>
+      </div>
+      <div class="half_width email">
+        <label for="email">
+          Ваш e-mail:
+          <input type="email" name="email" id="email" placeholder="email@example.com">
+        </label>
+      </div>
+      <label for="text">
+        Текст письма:
+        <textarea name="text" id="text">В свободной форме</textarea>
+      </label>
+      <button class="send_button" type="submit">ОТПРАВИТЬ</button>
+      <a class="close_button" href="#">
+        <span class="visually-hidden">Закрыть</span>
+        <img src="img/close-cross.svg">
+      </a>
+    </form>
+  </section>
   </body>
 </html>
