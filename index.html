@@ -50,19 +50,19 @@
         <li class="social_item">
           <a href="#">
             <span class="visually-hidden">Мы ВКонтакте</span>
-            <img src="img/vk_pic.svg" alt="VK pic">
+            <img src="vk_pic.svg" alt="VK pic">
           </a>
         </li>
         <li class="social_item">
           <a href="#">
             <span class="visually-hidden">Мы в Facebook</span>
-            <img src="img/fb_pic.svg" alt="FB pic">
+            <img src="fb_pic.svg" alt="FB pic">
           </a>
         </li>
         <li class="social_item">
           <a href="#">
             <span class="visually-hidden">Мы в Instagram</span>
-            <img src="img/ins_pic.svg" alt="INS pic">
+            <img src="ins_pic.svg" alt="INS pic">
           </a>
         </li>
       </ul>
@@ -71,5 +71,31 @@
       <p class="discount_hint">Скидка 10% для друзей из социальных сетей.</p>
     </div>
   </footer>
+  <section class="modal_window visually-hidden">
+    <h2>Напишите нам</h2>
+    <form class="write_us" action="http://echo.htmlacademy.ru" method="post">
+      <div class="half_width name">
+        <label for="name">
+          Ваше имя:
+          <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+        </label>
+      </div>
+      <div class="half_width email">
+        <label for="email">
+          Ваш e-mail:
+          <input type="email" name="email" id="email" placeholder="email@example.com">
+        </label>
+      </div>
+      <label for="text">
+        Текст письма:
+        <textarea name="text" id="text">В свободной форме</textarea>
+      </label>
+      <button class="send_button" type="submit">ОТПРАВИТЬ</button>
+      <a class="close_button" href="#">
+        <span class="visually-hidden">Закрыть</span>
+        <img src="img/close-cross.svg">
+      </a>
+    </form>
+  </section>
   </body>
 </html>
