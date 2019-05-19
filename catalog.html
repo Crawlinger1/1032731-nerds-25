@@ -25,20 +25,20 @@
       <h2 class="visually-hidden">Фильтры</h2>
       <form action="http://echo.htmlacademy.ru" method="get">
         <fieldset>
-          <legend><h3>СЕТКА:</h3></legend>
+          <legend>СЕТКА:</legend>
             <p><input type="radio" name="grid" value="adaptive" checked>Адаптивная</p>
             <p><input type="radio" name="grid" value="fixed">Фиксированная</p>
             <p><input type="radio" name="grid" value="elastic">Резиновая</p>
         </fieldset>
         <fieldset>
-          <legend><h3>ОСОБЕННОСТИ:</h3></legend>
+          <legend>ОСОБЕННОСТИ:</legend>
             <p><input type="checkbox" name="features" value="slider" checked>Слайдер</p>
             <p><input type="checkbox" name="features" value="benefits">Блок преимуществ</p>
             <p><input type="checkbox" name="features" value="news" checked>Новости</p>
             <p><input type="checkbox" name="features" value="gallery">Галерея</p>
             <p><input type="checkbox" name="features" value="cart">Корзина</p>
         </fieldset>
-        <p><button type="submit" class="submit_side_button">ПОКАЗАТЬ</button></p>
+        <button type="submit" class="submit_side_button">ПОКАЗАТЬ</button>
       </form>
     </section>
     <section class="item_container">
@@ -46,7 +46,7 @@
         <ul class="catalog_list">
           <li class="catalog_item">
             <a href="#"><img src="img/sedona.jpg" alt="Sedona"></a>
-            <div class="item_popup">
+            <div class="item_wrapper">
               <h3>SEDONA</h3>
               <p>Информационный сайт для туристов</p>
               <a href="sedona_order_page" class="order_button">9900 РУБ.</a>
@@ -54,7 +54,7 @@
           </li>
           <li class="catalog_item">
             <a href="#"><img src="img/pink.jpg" alt="Pink"></a>
-            <div class="item_popup">
+            <div class="item_wrapper">
               <h3>PINK APP</h3>
               <p>Продуктовый лендинг приложения для iOS и Android</p>
               <a href="pink_order_page" class="order_button">9900 РУБ.</a>
@@ -62,7 +62,7 @@
           </li>
           <li class="catalog_item">
             <a href="#"><img src="img/borodinski.jpg" alt="Borodinski"></a>
-            <div class="item_popup">
+            <div class="item_wrapper">
               <h3>BARBERSHOP</h3>
               <p>Сайт салона красоты. Для мужчин, да.</p>
               <a href="borodinski_order_page" class="order_button">9900 РУБ.</a>
@@ -70,7 +70,7 @@
           </li>
           <li class="catalog_item">
             <a href="#"><img src="img/mishka.jpg" alt="Mishka"></a>
-            <div class="item_popup">
+            <div class="item_wrapper">
               <h3>MISHKA</h3>
               <p>Интернет-магазин вязаных игрушек</p>
               <a href="mishka_order_page" class="order_button">9900 РУБ.</a>
@@ -78,7 +78,7 @@
           </li>
           <li class="catalog_item">
             <a href="#"><img src="img/a_plus.jpg" alt="A+"></a>
-            <div class="item_popup">
+            <div class="item_wrapper">
               <h3>A PLUS</h3>
               <p>Лендинг курсов повышения квалификации</p>
               <a href="aplus_order_page" class="order_button">9900 РУБ.</a>
@@ -86,7 +86,7 @@
           </li>
           <li class="catalog_item">
             <a href="#"><img src="img/kvast.jpg" alt="Kvast"></a>
-            <div class="item_popup">
+            <div class="item_wrapper">
               <h3>КВАСТ</h3>
               <p>Промо-сайт производителя крафтового кваса</p>
               <a href="kvast_order_page" class="order_button">9900 РУБ.</a>
@@ -142,9 +142,8 @@
         <textarea name="text" id="text">В свободной форме</textarea>
       </label>
       <button class="send_button" type="submit">ОТПРАВИТЬ</button>
-      <a class="close_button" href="#">
+      <a class="close_button" href="catalog.html">
         <span class="visually-hidden">Закрыть</span>
-        <img src="img/close-cross.svg">
       </a>
     </form>
   </section>
