@@ -18,14 +18,14 @@ a {
 .visually-hidden {
   position: absolute;
 
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /*Стилизуем хэдэр*/
@@ -40,6 +40,8 @@ a {
 .nav-bar,
 .cart {
   list-style: none;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .nav-bar a,
@@ -74,21 +76,22 @@ a {
   color: #283136;
 }
 
+/*Стилизуем каталог*/
 .title {
   font-size: 55px;
-    font-weight: 500;
-    line-height: 55px;
-    text-align: center;
+  font-weight: 500;
+  line-height: 55px;
+  text-align: center;
 }
 
 .filter fieldset {
-    border: none;
+  border: none;
 }
 
 .filter legend {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 .filter ul {
@@ -99,26 +102,26 @@ a {
 
 .filter-label:hover,
 .filter-label:focus {
-    color: #283136;
+  color: #283136;
 }
 
 .filter-label:disabled {
-    color: #283136;
-    opacity: 0.3;
+  color: #283136;
+  opacity: 0.3;
 }
 
 .filter-btn {
-    color: #000000;
-    background-color: #eeeeee;
+  color: #000000;
+  background-color: #eeeeee;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-    color: #000000;
+  color: #000000;
 }
 
 .filter-btn:active {
-    opacity: 0.3;;
+  opacity: 0.3;;
 }
 
 .catalog-list {
@@ -130,9 +133,9 @@ a {
 }
 
 .item-wrapper h3 {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 .item-wrapper p {
@@ -140,6 +143,7 @@ a {
   color: #666666;
 }
 
+/*Стилизуем футер*/
 .social-list {
   list-style: none;
 }
@@ -147,29 +151,29 @@ a {
 .social-item {
   width: 79px;
   height: 79px;
-    border-radius: 50%;
-    background-color: #e1e1e1;
-    vertical-align: middle;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  vertical-align: middle;
 }
 
 .social-item:hover,
 .social-item:focus {
-    background-color: #e74246;
+  background-color: #e74246;
 }
 
 .social-item:active {
-    background-color: #d7373b;
+  background-color: #d7373b;
 }
 
 .discount-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 36px;
-    margin-top: 9px;
-    margin-bottom: 12px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 9px;
+  margin-bottom: 12px;
 }
 
 .discount-hint {
-    line-height: 22px;
-    color: #444444;
+  line-height: 22px;
+  color: #444444;
 }
