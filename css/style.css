@@ -41,7 +41,7 @@ a {
 .cart {
     list-style: none;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .nav-bar a,
@@ -78,8 +78,7 @@ a {
 
 /*Ввиду того, что цвет текста ссылки - белый, целесообразно стилизовать его после стилизации кнопки
 .order-list-item a {
-    color: #ffffff;
-    font-weight: 600;
+  color: #ffffff;
 }
 */
 
@@ -97,7 +96,7 @@ a {
 
 .filter legend {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 30px;
 }
 
@@ -118,8 +117,11 @@ a {
 }
 
 .filter-btn {
-    color: #000000;
-    background-color: #eeeeee;
+  background-color: #eeeeee;
+    border: none;
+    width: 260px;
+    height: 50px;
+    font-weight: 500;
 }
 
 .filter-btn:hover,
