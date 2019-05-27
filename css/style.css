@@ -1,3 +1,7 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -138,6 +142,7 @@ a {
   margin-bottom: 117px;
   padding: 0;
   padding-top: 80px;
+  background-color: #eeeeee;
 }
 
 .catalog-columns {
@@ -173,6 +178,7 @@ a {
 
 .filter-btn {
   background-color: #eeeeee;
+  color: #000000;
   border: none;
   width: 260px;
   height: 50px;
@@ -254,6 +260,7 @@ a {
   justify-content: space-between;
   width: 257px;
   height: 80px;
+  margin-left: 20px;
   background-color: #f5f5f5;
 }
 
@@ -271,6 +278,11 @@ a {
 
 .social-btn:active {
   background-color: #d7373b;
+}
+
+.social-discount {
+  width: 563px;
+  margin-left: 140px;
 }
 
 .discount-title {
