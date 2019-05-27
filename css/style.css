@@ -77,6 +77,11 @@ a {
   color: #ffffff;
 }
 
+.order-list-item a:focus,
+.order-list-item a:hover {
+  color: #ffffff;
+}
+
 .order-list-item a:active {
   color: rgba(255, 255, 255, 0.3);
 }
