@@ -7,182 +7,179 @@ body {
   line-height: 24px;
 
   color: #000000;
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
 }
 
-/*Прячем скрытые элементы*/
 .visually-hidden {
-    position: absolute;
+  position: absolute;
 
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-/*Стилизуем хэдэр*/
 .main-header {
-    background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 .main-header-nav {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 .nav-bar,
 .cart {
-    list-style: none;
-    text-transform: uppercase;
-    font-weight: 500;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .nav-bar a,
 .cart a {
-    color: #000000;
+  color: #000000;
 }
 
 .nav-bar a:hover,
 .nav-bar a:focus,
 .cart a:hover,
 .cart a:focus {
-    color: #fb565a;
+  color: #fb565a;
 }
 
 .nav-bar a:active,
 .cart a:active {
-    color: #a6a6a6;
+  color: #a6a6a6;
 }
 
-/*Стилизуем секцию заказа в index*/
 .order-list {
-    list-style: none;
+  list-style: none;
 }
 
 .order-list-item h3 {
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
 }
 
 .order-list-item p {
     color: #283136;
 }
 
-/*Ввиду того, что цвет текста ссылки - белый, целесообразно стилизовать его после стилизации кнопки
 .order-list-item a {
   color: #ffffff;
 }
-*/
 
-/*Стилизуем каталог*/
+.order-list-item a:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .title {
-    font-size: 55px;
-    font-weight: 500;
-    line-height: 55px;
-    text-align: center;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+  text-align: center;
 }
 
 .filter fieldset {
-    border: none;
+  border: none;
 }
 
 .filter legend {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
 }
 
 .filter ul {
-    list-style: none;
-    line-height: 20px;
-    color: #283136;
+  list-style: none;
+  line-height: 20px;
+  color: #283136;
 }
 
 .filter-label:hover,
 .filter-label:focus {
-    color: #283136;
+  color: #283136;
 }
 
 .filter-label:disabled {
-    color: #283136;
-    opacity: 0.3;
+  color: #283136;
+  opacity: 0.3;
 }
 
 .filter-btn {
   background-color: #eeeeee;
-    border: none;
-    width: 260px;
-    height: 50px;
-    font-weight: 500;
+  border: none;
+  width: 260px;
+  height: 50px;
+  font-weight: 500;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-    color: #000000;
+  color: #000000;
 }
 
 .filter-btn:active {
-    opacity: 0.3;;
+  opacity: 0.3;;
 }
 
 .catalog-list {
-    list-style: none;
+  list-style: none;
 }
 
 .catalog-item a {
-    color: #000000;
+  color: #000000;
 }
 
 .item-wrapper h3 {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 .item-wrapper p {
-    line-height: 18px;
-    color: #666666;
+  line-height: 18px;
+  color: #666666;
 }
 
-/*Стилизуем футер*/
 .social-list {
-    list-style: none;
+  list-style: none;
 }
 
 .social-item {
-    width: 79px;
+  width: 79px;
   height: 79px;
-    border-radius: 50%;
-    background-color: #e1e1e1;
-    vertical-align: middle;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  vertical-align: middle;
 }
 
 .social-item:hover,
 .social-item:focus {
-    background-color: #e74246;
+  background-color: #e74246;
 }
 
 .social-item:active {
-    background-color: #d7373b;
+  background-color: #d7373b;
 }
 
 .discount-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 36px;
-    margin-top: 9px;
-    margin-bottom: 12px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 9px;
+  margin-bottom: 12px;
 }
 
 .discount-hint {
-    line-height: 22px;
-    color: #444444;
+  line-height: 22px;
+  color: #444444;
 }
