@@ -31,8 +31,15 @@ a {
   overflow: hidden;
 }
 
+.container-center {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
 .main-header {
   background-color: #eeeeee;
+  width: 1440px;
 }
 
 .main-header-nav {
@@ -53,14 +60,14 @@ a {
   display: flex;
   justify-content: space-between;
   width: 440px;
-  margin-left: 202px;
-  margin-top: 75px;
+  margin-left: 180px;
+  margin-top: 83px;
 }
 
 .cart {
-  width: 116px;
+  width: 125px;
   margin-left: auto;
-  margin-top: 75px;
+  margin-top: 83px;
 }
 
 .nav-bar,
@@ -89,6 +96,7 @@ a {
 
 .order {
   margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .order-list {
@@ -115,13 +123,36 @@ a {
 }
 
 .order-list-item p {
-    color: #283136;
+  color: #283136;
 }
 
 .btn {
+  display: inline-block;
   font-weight: 500;
   line-height: 18px;
   color: #ffffff;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background-color: #fb565a;
+}
+
+.order-btn {
+  display: inline-block;
+  max-width: 160px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.btn-page {
+  background-color: #fb565a;
+}
+
+.btn-app {
+  background-color: #00ca74;
+}
+
+.btn-pres {
+  background-color: #efc84a;
 }
 
 .btn:focus,
@@ -143,6 +174,7 @@ a {
   padding: 0;
   padding-top: 80px;
   background-color: #eeeeee;
+  width: 1440px;
 }
 
 .catalog-columns {
@@ -249,19 +281,12 @@ a {
   padding-bottom: 70px;
 }
 
-.container-center {
-  width: 1160px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .footer-social {
   display: flex;
   justify-content: space-between;
-  width: 257px;
+  width: 261px;
   height: 80px;
   margin-left: 20px;
-  background-color: #f5f5f5;
 }
 
 .social-btn {
@@ -285,10 +310,15 @@ a {
   margin-left: 140px;
 }
 
+.social-discount p {
+  margin-top: 0;
+}
+
 .discount-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 36px;
+  margin-bottom: 12px;
 }
 
 .discount-hint {
