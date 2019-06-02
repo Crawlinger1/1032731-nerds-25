@@ -263,6 +263,14 @@ a {
   color: #666666;
 }
 
+.order-cat-btn {
+  display: inline-block;
+  max-width: 200px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #fb565a;
+}
+
 .pagination-list {
   display: flex;
   padding: 0;
