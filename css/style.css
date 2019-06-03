@@ -386,13 +386,12 @@ a {
 
 input[type="checkbox"],
 input[type="radio"] {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+  display: none;
 }
 
+label {
+  cursor: pointer;
+}
 
 .filter fieldset {
   border: none;
@@ -418,7 +417,7 @@ input[type="radio"] {
   padding-left: 35px;
 }
 
-.checkbox::before {
+.checkbox label::before {
   content: "";
   position: absolute;
   left: 0px;
@@ -428,7 +427,7 @@ input[type="radio"] {
   opacity: 0.4;
 }
 
-.radio::before {
+.radio label::before {
   content: "";
   position: absolute;
   left: 0px;
@@ -438,16 +437,11 @@ input[type="radio"] {
   opacity: 0.4;
 }
 
-.checkbox:hover::before {
+label:hover::before {
   opacity: 1;
 }
 
-.radio:hover::before {
-  opacity: 1;
-}
-
-.checkbox:checked::before {
-  content: "";
+input[type="checkbox"]:checked + label::before {
   position: absolute;
   left: 0px;
   width: 25px;
@@ -455,8 +449,7 @@ input[type="radio"] {
   background: url("../img/checkbox-on.svg") no-repeat 0 0;
 }
 
-.radio:checked::before {
-  content: "";
+input[type="radio"]:checked + label::before {
   position: absolute;
   left: 0px;
   width: 25px;
@@ -696,4 +689,39 @@ input[type="radio"] {
 .discount-hint {
   line-height: 22px;
   color: #444444;
+}
+
+.modal-window {
+  display: block;
+  width: 960px;
+  height: 590px;
+  margin: 10px auto;
+  padding: 90px 85px;
+  box-shadow: 0 20px 40px 0 rgba(0, 1, 1, 0.75);
+}
+
+.modal-container {
+  display: block;
+}
+
+.modal-window-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.modal-header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+  font-weight: 500;
+  text-align: left;
+  color: #000000;
+}
+
+.modal-fields {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
