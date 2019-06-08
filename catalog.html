@@ -37,16 +37,16 @@
             <legend class="filter-title">СЕТКА:</legend>
               <ul class="filter-list">
                 <li class="filter-option radio">
-                  <input type="radio" name="grid" value="adaptive" id="adaptive" checked>
-                  <label for="adaptive">Адаптивная</label>
+                  <input type="radio" name="grid" value="adaptive" id="adaptive" class="visually-hidden radio" checked>
+                  <label for="adaptive" class="filter-label">Адаптивная</label>
                 </li>
                 <li class="filter-option radio">
-                  <input type="radio" name="grid" value="fixed" id="fixed">
-                  <label for="fixed">Фиксированная</label>
+                  <input type="radio" name="grid" value="fixed" id="fixed" class="visually-hidden radio">
+                  <label for="fixed" class="filter-label">Фиксированная</label>
                 </li>
                 <li class="filter-option radio">
-                  <input type="radio" name="grid" value="elastic" id="elastic">
-                  <label for="elastic">Резиновая</label>
+                  <input type="radio" name="grid" value="elastic" id="elastic" class="visually-hidden radio">
+                  <label for="elastic" class="filter-label">Резиновая</label>
                 </li>
               </ul>
           </fieldset>
@@ -54,24 +54,24 @@
             <legend class="filter-title">ОСОБЕННОСТИ:</legend>
               <ul class="filter-list">
                 <li class="filter-option checkbox">
-                  <input type="checkbox" name="features" value="slider" id="slider" checked>
-                  <label for="slider">Слайдер</label>
+                  <input type="checkbox" name="features" value="slider" id="slider" class="visually-hidden checkbox" checked>
+                  <label for="slider" class="filter-label">Слайдер</label>
                 </li>
                 <li class="filter-option checkbox">
-                  <input type="checkbox" name="features" value="benefits" id="benefits">
-                  <label for="benefits">Блок преимуществ</label>
+                  <input type="checkbox" name="features" value="benefits" id="benefits" class="visually-hidden checkbox">
+                  <label for="benefits" class="filter-label">Блок преимуществ</label>
                 </li>
                 <li class="filter-option checkbox">
-                  <input type="checkbox" name="features" value="news" id="news" checked>
-                  <label for="news">Новости</label>
+                  <input type="checkbox" name="features" value="news" id="news" class="visually-hidden checkbox" checked>
+                  <label for="news" class="filter-label">Новости</label>
                 </li>
                 <li class="filter-option checkbox">
-                  <input type="checkbox" name="features" value="gallery" id="gallery">
-                  <label for="gallery">Галерея</label>
+                  <input type="checkbox" name="features" value="gallery" id="gallery" class="visually-hidden checkbox">
+                  <label for="gallery" class="filter-label">Галерея</label>
                 </li>
                 <li class="filter-option checkbox">
-                  <input type="checkbox" name="features" value="cart" id="cart">
-                  <label for="cart">Корзина</label>
+                  <input type="checkbox" name="features" value="cart" id="cart" class="visually-hidden checkbox">
+                  <label for="cart" class="filter-label">Корзина</label>
                 </li>
               </ul>
           </fieldset>
@@ -85,7 +85,7 @@
               <a href="#"><img src="img/sedona.jpg" alt="Sedona"></a>
               <div class="browse-img"></div>
               <div class="item-wrapper">
-                <h3>SEDONA</h3>
+                <h3 class="wrapper-headline"><a href="#">SEDONA</a></h3>
                 <p>Информационный сайт<br> для туристов</p>
                 <a href="sedona_order_page" class="order-cat-btn">9900 РУБ.</a>
               </div>
@@ -94,7 +94,7 @@
               <a href="#"><img src="img/pink.jpg" alt="Pink"></a>
               <div class="browse-img"></div>
               <div class="item-wrapper">
-                <h3>PINK APP</h3>
+                <h3 class="wrapper-headline"><a href="#">PINK APP</a></h3>
                 <p>Продуктовый лендинг<br> приложения для iOS и Android</p>
                 <a href="pink_order_page" class="order-cat-btn">9900 РУБ.</a>
               </div>
@@ -103,7 +103,7 @@
               <a href="#"><img src="img/borodinski.jpg" alt="Borodinski"></a>
               <div class="browse-img"></div>
               <div class="item-wrapper">
-                <h3>BARBERSHOP</h3>
+                <h3 class="wrapper-headline"><a href="#">BARBERSHOP</a></h3>
                 <p>Сайт салона красоты. <br>Для мужчин, да.</p>
                 <a href="borodinski_order_page" class="order-cat-btn">9900 РУБ.</a>
               </div>
@@ -112,7 +112,7 @@
               <a href="#"><img src="img/mishka.jpg" alt="Mishka"></a>
               <div class="browse-img"></div>
               <div class="item-wrapper">
-                <h3>MISHKA</h3>
+                <h3 class="wrapper-headline"><a href="#">MISHKA</a></h3>
                 <p>Интернет-магазин <br>вязаных игрушек</p>
                 <a href="mishka_order_page" class="order-cat-btn">9900 РУБ.</a>
               </div>
@@ -121,7 +121,7 @@
               <a href="#"><img src="img/a_plus.jpg" alt="A+"></a>
               <div class="browse-img"></div>
               <div class="item-wrapper">
-                <h3>A PLUS</h3>
+                <h3 class="wrapper-headline"><a href="#">A PLUS</a></h3>
                 <p>Лендинг курсов повышения <br>квалификации</p>
                 <a href="aplus_order_page" class="order-cat-btn">9900 РУБ.</a>
               </div>
@@ -130,7 +130,7 @@
               <a href="#"><img src="img/kvast.jpg" alt="Kvast"></a>
               <div class="browse-img"></div>
               <div class="item-wrapper">
-                <h3>КВАСТ</h3>
+                <h3 class="wrapper-headline"><a href="#">КВАСТ</a></h3>
                 <p>Промо-сайт производителя <br>крафтового кваса</p>
                 <a href="kvast_order_page" class="order-cat-btn">9900 РУБ.</a>
               </div>
@@ -148,12 +148,24 @@
   </main>
   <footer class="main-footer">
     <div class="container-center">
+    <section class="location">
+      <h2 class="visually-hidden">Адрес и контакты</h2>
+      <div class="contacts container-center">
+        <div class="wrapper-contacts">
+          <p class="contact-name">Nёrds design studio</p>
+          <p class="contact-address">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <p class="contact-phone"><a href="tel:+78172757575">тел. +7 (817) 275-75-75</a></p>
+          <a class="btn btn-connect" href="#">НАПИШИТЕ НАМ</a>
+        </div>
+        <div class="map-marker"></div>
+      </div>
+    </section>
     <section class="social-link">
       <h2 class="visually-hidden">Студия в соцсетях</h2>
       <div class="footer-social">
-        <a class="social-btn" href="#"><span class="visually-hidden">Вконтакте</span></a>
-        <a class="social-btn" href="#"><span class="visually-hidden">Фейсбук</span></a>
-        <a class="social-btn" href="#"><span class="visually-hidden">Инстаграм</span></a>
+        <a class="social-btn social-btn-vk" href="#"><span class="visually-hidden">Вконтакте</span></a>
+        <a class="social-btn social-btn-fb" href="#"><span class="visually-hidden">Фейсбук</span></a>
+        <a class="social-btn social-btn-inst" href="#"><span class="visually-hidden">Инстаграм</span></a>
       </div>
       <div class="social-discount">
         <p class="discount-title">Давайте дружить, это выгодно!</p>
@@ -174,8 +186,8 @@
           <input type="email" name="email" id="email" placeholder="email@example.com">
         </div>
         <div class="textarea-container">
-          <label for="text">Текст письма:</label>
-          <textarea name="text" id="text" cols="90" rows="5">В свободной форме</textarea>
+          <label for="text" class="modal-textarea-label">Текст письма:</label>
+          <textarea name="text" id="text" class="modal-textarea">В свободной форме</textarea>
         </div>
         <button class="send-btn" type="submit">ОТПРАВИТЬ</button>
         <button class="close-btn" type="button"><span class="visually-hidden">Закрыть</span></button>
