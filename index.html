@@ -146,14 +146,14 @@
       <form class="write-us" action="http://echo.htmlacademy.ru" method="post">
         <div class="half-width">
           <label for="name">Ваше имя:</label>
-          <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+          <input type="text" name="name" id="name" placeholder="Имя Фамилия" required>
 
           <label for="email">Ваш e-mail:</label>
-          <input type="email" name="email" id="email" placeholder="email@example.com">
+          <input type="email" name="email" id="email" placeholder="email@example.com" required>
         </div>
         <div class="textarea-container">
           <label for="text" class="modal-textarea-label">Текст письма:</label>
-          <textarea name="text" id="text" class="modal-textarea">В свободной форме</textarea>
+          <textarea name="text" id="text" class="modal-textarea" required>В свободной форме</textarea>
         </div>
         <button class="send-btn" type="submit">ОТПРАВИТЬ</button>
         <button class="close-btn" type="button"><span class="visually-hidden">Закрыть</span></button>
