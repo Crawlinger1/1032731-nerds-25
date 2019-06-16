@@ -651,7 +651,7 @@ img {
   transition: all 0.3s;
 }
 
-.wrapper-headline {
+.wrapper-headline a {
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
@@ -660,12 +660,16 @@ img {
   color: #000000;
 }
 
-.wrapper-headline:hover {
+.wrapper-headline a:hover {
   color: #fb565a;
 }
 
-.wrapper-headline:active {
+.wrapper-headline a:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.wrapper-headline a:visited {
+  color: #000000;
 }
 
 .item-wrapper p {
