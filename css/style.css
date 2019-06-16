@@ -154,7 +154,7 @@ img {
   background-position: 50% 50%;
 }
 
-.sliders-controls i {
+.sliders-controls span {
   position: relative;
   display: inline-block;
   width: 18px;
@@ -164,7 +164,7 @@ img {
   cursor: pointer;
 }
 
-.sliders-controls i::after {
+.sliders-controls span::after {
   content: "";
   position: absolute;
   top: 9px;
