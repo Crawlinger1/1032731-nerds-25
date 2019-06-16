@@ -732,7 +732,7 @@ img {
 .pagination-list-item:first-child {
   background-color: #ffffff;
   border: solid 3px #dbdbdb;
-  box-sizing: border-box;
+  box-sizing: inherit;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -803,7 +803,7 @@ img {
   width: 319px;
   height: 308px;
   padding: 54px 50px 47px 50px;
-  box-sizing: border-box;
+  box-sizing: inherit;
   background-color: #ffffff;
 }
 
@@ -833,7 +833,7 @@ img {
 
 .btn-connect {
   width: 219px;
-  box-sizing: border-box;
+  box-sizing: inherit;
   margin-top: 19px;
   padding-left: 44px;
   padding-right: 44px;
@@ -928,7 +928,7 @@ img {
   position: absolute;
   bottom: 180px;
   left: 240px;
-  box-sizing: border-box;
+  box-sizing: inherit;
   width: 960px;
   height: 590px;
   margin: 0;
@@ -997,7 +997,7 @@ img {
 .modal-textarea {
   width: 760px;
   height: 118px;
-  box-sizing: border-box;
+  box-sizing: inherit;
   padding-top: 15px;
   padding-left: 15px;
   margin: 0;
